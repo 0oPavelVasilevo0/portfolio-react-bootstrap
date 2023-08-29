@@ -1,0 +1,11 @@
+/* .header-title {
+    padding: 200px 0;
+    align-items: center;
+    text-align: center;
+} */
+
+.home_page {
+    background-image: url('./img/veb-razrabotchik-918x516.jpg');
+    background-size: cover;
+    background-position: center center;
+}
