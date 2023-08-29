@@ -4,8 +4,16 @@
     text-align: center;
 } */
 
-.home_page {
+.title {
+    min-height: 100vh;
     background-image: url('./img/veb-razrabotchik-918x516.jpg');
     background-size: cover;
     background-position: center center;
+    padding: 0;
+
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.574);
+    min-height: 100vh;
 }
