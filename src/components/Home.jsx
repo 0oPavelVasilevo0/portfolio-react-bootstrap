@@ -8,7 +8,7 @@ const Home = () => {
       // <Container  style={{height: "100vh", margin: '0'}}>
     <Container style={{height: '100vh'}} className='me-240'>
      
-              <h1 className='lead text-center'>gfdhkhgskjhgjh</h1>
+              <h1 className='lead text-center'>Blablabla</h1>
             
           </Container>
          

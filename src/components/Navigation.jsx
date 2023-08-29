@@ -12,7 +12,7 @@ const Navigation = () => {
     return (
         <Navbar sticky='top' expand="lg" className="bg-info">
             <Container>
-                <Navbar.Brand href="#home" className='text-light' >Pavel Vasilev</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className='text-light' >Pavel Vasilev</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
