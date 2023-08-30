@@ -10,9 +10,9 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <Navbar sticky='top' expand="lg" className="bg-info">
+        <Navbar sticky='top' expand="lg" bg="dark bg-gradient" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand as={Link} to="/" className='text-light' >Pavel Vasilev</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className='text-info' >Pavel Vasilev</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">

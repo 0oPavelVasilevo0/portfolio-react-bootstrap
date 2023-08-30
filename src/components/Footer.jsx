@@ -22,7 +22,7 @@ const Footer = () => {
     //       </Nav>
           
     // </Container>
-    <footer class="py-5  bg-dark border-info border-top border-4 ">
+    <footer class="py-3  bg-dark bg-gradient border-info border-top border-2 ">
         <Container className='px-4'>
             <p class='text-center text-white'>
                 Copyright &copy; PAWASIL

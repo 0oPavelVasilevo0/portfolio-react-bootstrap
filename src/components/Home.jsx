@@ -9,9 +9,9 @@ const Home = () => {
 
       <Container fluid className='title'>
       <Container fluid className='mask'>
-     
+        <Container style={{ minHeight: '100vh' }}>
         <h1 className='lead text-center text-light '>Blablabla</h1>
-     
+        </Container>
     </Container>
           </Container>
           
