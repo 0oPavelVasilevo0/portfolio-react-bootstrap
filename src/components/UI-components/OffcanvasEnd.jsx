@@ -11,10 +11,10 @@ const OffcanvasEnd = ({ placement }) => {
 
   return (
       <>
-          <Button variant="secondary" onClick={handleShow} className="ms-2">
-             more about me
+          <Button variant="secondary" onClick={handleShow} className="ms-2 bg-gradient">
+             more about
           </Button>
-          <Offcanvas show={show} onHide={handleClose} placement={placement}>
+          <Offcanvas className='bg-secondary text-light' show={show} onHide={handleClose} placement={placement}>
               <Offcanvas.Header closeButton>
                   <Offcanvas.Title>Offcanvas</Offcanvas.Title>
               </Offcanvas.Header>
