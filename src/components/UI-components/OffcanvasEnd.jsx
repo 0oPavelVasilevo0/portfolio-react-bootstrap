@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Button, Offcanvas } from 'react-bootstrap'
+import { Button, Container, Offcanvas } from 'react-bootstrap'
+import ImgWindow from './ImgWindow';
 
 const OffcanvasEnd = ({ placement }) => {
 
@@ -12,16 +13,22 @@ const OffcanvasEnd = ({ placement }) => {
   return (
       <>
           <Button variant="secondary" onClick={handleShow} className="ms-2 bg-gradient">
-             more about
+             more about me
           </Button>
           <Offcanvas className='bg-secondary text-light' show={show} onHide={handleClose} placement={placement}>
               <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Hello World</Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
-                  Some text as placeholder. In real life you can have the elements you
-                  have chosen. Like, text, images, lists, etc.
-              </Offcanvas.Body>
+             
+                  <ImgWindow />
+         
+              {/* <Offcanvas.Body>
+                <Container>
+                      <ImgWindow />
+                </Container>
+                
+                  Some text
+              </Offcanvas.Body> */}
           </Offcanvas>
       </>
   )

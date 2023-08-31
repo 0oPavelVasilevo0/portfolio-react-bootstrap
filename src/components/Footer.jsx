@@ -1,5 +1,7 @@
 import React from 'react'
-import { Container, Dropdown, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap'
+import { Col, Container, Dropdown, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap'
+import { BsGithub, BsInstagram, BsTelegram } from 'react-icons/bs'
+import './../styles.css';
 
 const Footer = () => {
   return (
@@ -27,6 +29,20 @@ const Footer = () => {
             <p class='text-center text-white'>
                 Copyright &copy; PAWASIL
                 </p> 
+        <Container>
+          <Row xs md={3} className="justify-content-md-center g-4">
+            <Col>
+              <BsInstagram className='icon' />
+              </Col>
+              <Col>
+              <BsGithub className='icon' />
+              </Col>
+              <Col>
+              <BsTelegram className='icon' />
+            </Col>
+          </Row>
+        </Container>
+        
         </Container>
 
     </footer>

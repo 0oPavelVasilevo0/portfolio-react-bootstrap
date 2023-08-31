@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import img1 from './../../img/veb-razrabotchik-918x516.jpg'
+import img1 from './../../img/avatar.png'
 
 const ImgWindow = () => {
   return (
