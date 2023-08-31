@@ -1,8 +1,11 @@
-/* .header-title {
-    padding: 200px 0;
+.header {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
     align-items: center;
     text-align: center;
-} */
+}
 
 .title {
     min-height: 100vh;
@@ -14,6 +17,6 @@
 }
 
 .mask {
-    background-color: rgba(0, 0, 0, 0.574);
     min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.574);
 }

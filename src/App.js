@@ -1,12 +1,12 @@
 
-import { Col, Container, Row } from 'react-bootstrap';
+
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 // import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from './utils/scrollToTop';
-import CollapsibleNav from './components/CollapsibleNav';
+
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 
@@ -17,9 +17,9 @@ function App() {
    
       <Router>
         {/* <ScrollToTop /> */}
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <Navigation />
-        {/* <CollapsibleNav /> */}
+       
         {/* <Home /> */}
         {/* <Footer /> */}
         <Routes>
