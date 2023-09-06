@@ -1,53 +1,40 @@
 import React from 'react'
-import { Card, Col, Container, Dropdown, DropdownButton, Form, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap'
+import { Card, Col, Container, Dropdown, DropdownButton, Form, Nav, NavDropdown, NavLink, Navbar, Row } from 'react-bootstrap'
 import { BsGithub, BsInstagram, BsTelegram } from 'react-icons/bs'
 import './../styles.css';
 
 const Footer = () => {
   return (
-    //   <Container fluid className="bg-info">
-
-
-    //       <p className='lead text-center align-middle py-4 my-0'>pawasil</p>
-    //       <hr className='hr' />
-
-    //       <Nav className='mx-auto' style={{width: '100px'}}>
-    //       <NavDropdown title="Contacts" id="collasible-nav-dropdown" >
-    //           <NavDropdown.Item href="#action/3.1">Whatsapp</NavDropdown.Item>
-    //           <NavDropdown.Item href="#action/3.2">Telegram</NavDropdown.Item>
-    //           <NavDropdown.Item href="#action/3.3">Viber</NavDropdown.Item>
-    //           {/* <NavDropdown.Divider /> */}
-    //           {/* <NavDropdown.Item href="#action/3.4">
-    //               Separated link
-    //           </NavDropdown.Item> */}
-    //       </NavDropdown>
-    //       </Nav>
-
-    // </Container>
     <footer class="py-3  bg-dark bg-gradient border-info border-top border-2 ">
-
-      {/* <Container fluid> */}
-      {/*  md={3} className="justify-content-md-center g-4" */}
-      <Container>
-        {/* <Row className="justify-content-md-center"> */}
-        {/* <Col md="auto" > */}
+      {/* <Container> */}
         <Container >
-          <Row className="g-4">
-            <Col>
+          {/* <Row xs={1} md={3} className="g-4"> */}
+        <Row className="g-4">
+          <Col md='auto' className='text-center'>
               <BsInstagram className='icon' />
               <BsGithub className='icon' />
               <BsTelegram className='icon' />
             </Col>
             <Col>
-              <Container className='ms-auto'> 
-                <Dropdown className="d-inline" autoClose="outside">
+
+            </Col>
+          <Col md='auto' className='text-center text-warning'>
+              <Container >
+                this site is written using the
+                <br />
+              <NavLink className='text-info' href='https://react-bootstrap.github.io/docs/components/navbar#home'>
+                  React-Bootstrap library
+
+                </NavLink>
+              </Container>
+              {/* <Dropdown className="d-inline" autoClose="outside" class="ms-auto">
                   <Dropdown.Toggle id="dropdown-autoclose-outside">
                     Email me
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
                     <Card className=" bg-dark text-white" style={{ width: '18rem' }}>
-                      <Card.Header>Email me</Card.Header>
+                    
                       <Card.Body>
                         <Form>
                           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -62,13 +49,12 @@ const Footer = () => {
                       </Card.Body>
                     </Card>
                   </Dropdown.Menu>
-                </Dropdown>
-              </Container>
+                </Dropdown> */}
+
             </Col>
           </Row>
-        </Container>
-        {/* </Col> */}
-        {/* </Row> */}
+        {/* </Container> */}
+        
       </Container>
       <Container>
         <hr className='hr text-info' />
