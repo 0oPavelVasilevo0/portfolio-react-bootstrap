@@ -23,7 +23,7 @@ const Navigation = () => {
                         {/* <LinkContainer to="/">Home</LinkContainer> */}
                         <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                         <NavDropdown title="My tools" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="https://my-app-iota-blush.vercel.app/">Contact Manager</NavDropdown.Item>
+                            <NavDropdown.Item href="https://my-app-iota-blush.vercel.app/" target='_blank'>Contact Manager</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Calculator</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Drum Machine</NavDropdown.Item>
                             <NavDropdown.Divider />
